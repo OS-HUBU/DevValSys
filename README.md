@@ -34,7 +34,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 开发者价值评估模型由五个部分组成：项目管理能力、编程能力、学习能力、团队协作能力、敬业度。从这五个维度来整体刻画开发者价值评估模型。
 
-![五个一级指标](https://github.com/tmyisgod/images/blob/46a53380c0158bf2386b84bcab8f4360513d2794/picture/clip_image002.pnge)
+![五个一级指标](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/6cdf78993a29fb03f05d94b4a96b9bf12be6092c/picture/clip_image002.png)
 
 开发者价值评估模型的公式是一个分数计算，用一个具体的分数来刻画开发者的价值。开发者价值评估的总分数是由五个指标分数加权求和构成。
 $$
