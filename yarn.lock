@@ -851,7 +851,14 @@
   "resolved" "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.5.tgz"
   "version" "0.14.5"
 
-"vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.45", "vue@>=3.2.0", "vue@>2.0.0", "vue@3.3.4":
+"vue-scrolling-table@^2.0.0":
+  "integrity" "sha512-M3o/ZejJi+4IL7Mr8LIWQGzjP1r1GcTxqBdFpaz9cVyqV9c3CxoqDu+iJn/x1OXIW6uGgv34GPSlBggBFMDcrA=="
+  "resolved" "https://registry.npmjs.org/vue-scrolling-table/-/vue-scrolling-table-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "vue" "^3.2.31"
+
+"vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.31", "vue@^3.2.45", "vue@>=3.2.0", "vue@>2.0.0", "vue@3.3.4":
   "integrity" "sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.3.4.tgz"
   "version" "3.3.4"

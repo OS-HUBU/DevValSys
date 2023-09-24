@@ -9,6 +9,7 @@
     "lib-flexible": "^0.3.2",
     "mysql": "^2.18.1",
     "v-charts": "^1.19.0",
+    "vue-scrolling-table": "^2.0.0",
     "vue3-easy-data-table": "^1.5.47",
     "vuetify": "^3.3.11"
   },
