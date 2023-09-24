@@ -8,13 +8,13 @@ router.get("/data",(req,res)=>{
 })
 const app = express();
 app.use(express.json());
-// let conn = mysql.createConnection({
-//     user:'mydb',
-//     password:'hubu88661126',
-//     host:'47.98.247.52',
-//     database:'mydb',
-//     port:'3306'
-// });
+let conn = mysql.createConnection({
+    user:'mydb',
+    password:'hubu88661126',
+    host:'47.98.247.52',
+    database:'mydb',
+    port:'3306'
+});
 
 // let conn = mysql.createConnection({
 //     user:'hubu',
@@ -24,12 +24,12 @@ app.use(express.json());
 //     port:'3336'
 // });
 
-let conn = mysql.createConnection({
-    user:'root',
-    password:'Hubu!88661126',
-    host:'122.204.223.14',
-    database:'tmy',
-});
+// let conn = mysql.createConnection({
+//     user:'root',
+//     password:'Hubu!88661126',
+//     host:'122.204.223.14',
+//     database:'tmy',
+// });
 
 router.get("/data2/:username",(req,res)=>{
 
