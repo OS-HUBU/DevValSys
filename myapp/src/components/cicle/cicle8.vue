@@ -24,7 +24,7 @@ import {ref, toRefs, defineProps, reactive, onMounted, inject} from "vue";
   width: 3.2rem;
   height: 3.2rem;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   z-index: 100;
   margin-left: -1.5rem;

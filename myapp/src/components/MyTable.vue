@@ -1,5 +1,5 @@
 <template>
-  <table ref="table">
+    <table ref="table">
     <thead>
     <tr>
       <th v-if="index">序号</th>
@@ -10,19 +10,17 @@
       <td v-if="index"></td>
       <td v-for="(item, i) in header" :key="i">{{ fixedRow[i] }}</td>
     </tr>
-    <tbody>
+    <tbody slot="tbody">
     <tr v-for="(row, i) in $props.data.value.slice(scrollIndex.value, scrollIndex.value + rowNum)"
         key="row.id"
         @click="handleownertData(scrollIndex.value + i),handleClick(row)"
-        @mouseover="hoverRow(i)" @mouseout="leaveRow(i)">
+        @mouseover="hoverRow(i)" @mouseout="leaveRow(i)" :width="columnWidth[i]">
       <td v-if="index" >{{ scrollIndex.value + i + 1 }}</td>
       <td v-for="(cell, j) in row" :key="cell.id" :align="align[j]" :class="['col' + (j + 1)]" >{{ cell }}</td>
     </tr>
-
     </tbody>
-  </table>
+    </table>
 </template>
-
 <script>
 import { reactive, ref, onMounted, onBeforeUnmount, inject, watchEffect,defineComponent} from "vue";
 import axios from "axios"
@@ -112,10 +110,26 @@ export default defineComponent({
     function hoverRow(i) {
       // 设置被悬停的行的索引
       hoveredIndex.value = i;
+      window.addEventListener('wheel',onWheel)
     }
     function leaveRow(i) {
       // 清除被悬停的行的索引
       hoveredIndex.value = null;
+      window.removeEventListener('wheel',onWheel)
+    }
+    function onWheel(e)
+    {
+      if(e.deltaY<0){
+        if(scrollIndex.value>0){
+          scrollIndex.value--
+        }
+      }
+      else if(e.deltaY>0){
+        if(scrollIndex.value+ props.rowNum<props.data.value.length)
+        {
+          scrollIndex.value++
+        }
+      }
     }
     function startScroll () {
       clearInterval(timer.value);
@@ -185,35 +199,37 @@ export default defineComponent({
       hoverRow,
       leaveRow,
       fixedRow,
-      handleClick
+      handleClick,
+      onWheel
     };
   }
 });
 </script>
 <style lang="less">
-table {
-  position: center;
-  border-collapse: collapse;
-  width: 12rem;
-  height: 90%;
-  .fixed_row{
-    font-size: 0.35rem;
-    background-color: #002681; /* 设置背景颜色为黄色 */
-  }
-  th, td {
-    /*border: 1px solid #ccc;*/
-    padding: 5px;
-    font-family: "Times New Roman";
-    color: white;
-    text-align: center;
-  }
+  table {
+    position: center;
+    border-collapse: collapse;
+    width: 12rem;
+    height: 90%;
+    overflow-y: auto;
+    .fixed_row {
+      font-size: 0.35rem;
+      background-color: rgba(61, 107, 194, 0.85); /* 设置背景颜色为黄色 */
+    }
 
-  tr:hover {
-    background-color: #002681;
-  }
-  th {
-    background-color: rgba(24, 81, 194, 0.97);
-  }
-}
+    th, td {
+      /*border: 1px solid #ccc;*/
+      padding: 5px;
+      font-family: "Times New Roman";
+      color: white;
+      text-align: center;
+    }
+    tr:hover {
+      background-color: #002681;
+    }
 
+    th {
+      background-color: rgba(24, 81, 194, 0.97);
+    }
+  }
 </style>

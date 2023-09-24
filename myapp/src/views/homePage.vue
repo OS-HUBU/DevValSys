@@ -1,7 +1,7 @@
 <template>
 <div>
   <header>
-    <h1><span>开发者价值评估体系</span></h1>
+    <h1><span>GitHub开发者价值画像</span></h1>
   </header>
 
   <section class="container">
