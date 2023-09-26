@@ -55,7 +55,7 @@ chart.value.dispose()
 // const echarts = inject('echarts')
 function initChart()
 {
-  chart.value = $echarts.init(document.getElementById("radarchart"), 'macarons')
+  chart.value = $echarts.init(document.getElementById("radarchart"))
   setOptions(props.chartData)
 }
  async function setOptions({ pm_score, code_score, eng_score,learn_score,team_score } = {}) {
@@ -83,7 +83,7 @@ function initChart()
                 { text: '学习能力' ,max:100},
                 { text: '团队协作能力',max:100 }
                   ],
-                  center: ['50%', '50%'],
+                  center: ['50%', '60%'],
                   radius: 120,
                   startAngle: 90,
                   splitNumber: 4,
