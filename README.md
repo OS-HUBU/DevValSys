@@ -86,7 +86,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 具体情况如图二、三所示：
 
-![image](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/5d711ed3c856434134eb7bfc6e299da1d16f70b7/picture/轮播表.jpg)
+![image](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/f3384ccd1f15c7161b29aaa1f0f2ce1c351de8a2/picture/%E4%B8%AD%E9%97%B4%E5%8A%A8%E7%94%BB.jpg)
 
 **图 2 2020年GitHubTop100开发者个人信息**
 
