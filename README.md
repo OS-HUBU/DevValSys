@@ -68,7 +68,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 **（2）**一级指标展示：一级指标围绕着总分旋转，并且初次展示的分数、等级是价值总分最高的开发者的具体情况，等级是根据开发者所占排名的位置所判定的。如图一所示：
 
-![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/f3384ccd1f15c7161b29aaa1f0f2ce1c351de8a2/picture/%E4%B8%AD%E9%97%B4%E5%8A%A8%E7%94%BB.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/center.jpg)
 
 **图 1 开发者价值评估一级指标展示**
 
@@ -86,13 +86,13 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 具体情况如图二、三所示：
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/5d711ed3c856434134eb7bfc6e299da1d16f70b7/picture/轮播表.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/table.jpg)
 
 **图 2 2020年GitHubTop100开发者个人信息**
 
 
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/5d711ed3c856434134eb7bfc6e299da1d16f70b7/picture/雷达图.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/radar.jpg)
 
 **图 3 开发者五维能力分布**
 
@@ -108,13 +108,13 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 具体情况如下图所示：
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/5d711ed3c856434134eb7bfc6e299da1d16f70b7/picture/国家柱状图.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/country.jpg)
 
 **图 四 2020年GitHub开发者规模top10国家**
 
 
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/5d711ed3c856434134eb7bfc6e299da1d16f70b7/picture/企业柱状图.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/company.jpg)
 
 **图 五 2020年GitHub开发者规模top10企业**
 
