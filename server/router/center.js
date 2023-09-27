@@ -15,7 +15,6 @@ let conn = mysql.createConnection({
     database:'mydb',
     port:'3306'
 });
-
 // let conn = mysql.createConnection({
 //     user:'hubu',
 //     password:'hubu88661126',
