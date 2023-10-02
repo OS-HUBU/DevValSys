@@ -5,9 +5,9 @@
 import {createApp, provide} from "vue";
 import * as echarts from "echarts";
 import axios from 'axios';
-// axios.defaults.baseURL="http://localhost:30014/"
+axios.defaults.baseURL="http://localhost:30015/"
 // axios.defaults.baseURL="http://47.98.247.52:8888/"
-axios.defaults.baseURL="http://111.47.28.118:30014/"
+// axios.defaults.baseURL="http://111.47.28.118:30015/"
 export default {
   setup(){
     provide("echarts",echarts)

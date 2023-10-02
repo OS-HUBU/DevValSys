@@ -35,6 +35,6 @@ app.use("/two",chartTwo)
 app.use("/three",chartThree)
 app.use("/four",chartFour)
 app.use("/center",chartCenter)
-app.listen(30014)
+app.listen(30015)
 //app.listen(8888)
 // module.exports = conn;

@@ -9,20 +9,25 @@ let mysql = require("mysql");
 //     host:'122.204.223.14',
 //     database:'tmy',
 // });
-// let conn = mysql.createConnection({
-//     user:'hubu',
-//     password:'hubu88661126',
-//     host:'111.47.28.118',
-//     database:'tmy',
-//     port:'3336'
-// });
 let conn = mysql.createConnection({
-    user:'mydb',
-    password:'hubu88661126',
-    host:'47.98.247.52',
+    user:'root',
+    password:'password',
+    host:'111.47.28.118',
     database:'mydb',
-    port:'3306'
+    port:'30001'
 });
+// let sql = 'SELECT *\n' +
+//     'FROM country_ranks'
+// console.log(conn.query(sql,(err,data)=>{
+//     console.log(err)
+// }))
+// let conn = mysql.createConnection({
+//     user:'mydb',
+//     password:'hubu88661126',
+//     host:'47.98.247.52',
+//     database:'mydb',
+//     port:'3306'
+// });
 // router.get("/data",(req,res)=>{
 //     res.send({msg:"我是one的路由地址",chartOne:oneData})
 // });
