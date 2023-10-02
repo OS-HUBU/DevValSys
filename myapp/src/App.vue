@@ -1,5 +1,6 @@
 <template>
   <router-view/>
+<!--湖北大学OS-HUBU社区-->
 </template>
 <script>
 import {createApp, provide} from "vue";

@@ -81,7 +81,9 @@ export default {
               lineStyle:{
                 color:"#fff"
               }
-            }
+            },
+            inverse:true,
+            nameLocation:'start', // 添加这个属性
           },
           legend:{
             data:["S级","A级","B级","C级","D级"],
