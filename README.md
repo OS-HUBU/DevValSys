@@ -2,7 +2,7 @@
 
 # 一、 团队介绍
 
-开发者价值评估可视化团队来自湖北大学计算机与信息工程学院OS-HUBU社区，团队里的成员有：田明炎、周志峰、周珊珊、王耀庆。
+开发者价值评估可视化团队来自湖北大学计算机与信息工程学院，团队里的成员有：田明炎、周志峰、周珊珊、王耀庆。
 
 # 二、 组员分工
 
@@ -114,7 +114,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/company.jpg)
+![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/company.jpg)
 
 **图 五 2020年GitHub开发者规模top10企业**
 
@@ -138,4 +138,8 @@ http://111.47.28.118:30014/
 
 视频查看地址：
 
-https://www.bilibili.com/video/BV1iu411u7Dh?t=31.3
+https://www.bilibili.com/video/BV1cH4y1f7Xm
+
+# 九、致谢
+
+感谢所有为开发者价值评估做出贡献的同学，感谢OS-HUBU开源组织对此项目的鼎力支持。
