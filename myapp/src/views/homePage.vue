@@ -82,9 +82,9 @@ export default {
       data.value = value;
     };
     const handleownertData = async (type) => {
-      console.log('用户名',type)
+      //console.log('用户名',type)
       ownerData.data = await $http({url:"center/data2/"+ type});
-      console.log(type+"开发者",ownerData.data);
+      //console.log(type+"开发者",ownerData.data);
       setData()
     }
     let $echarts = inject("echarts")

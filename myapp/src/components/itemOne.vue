@@ -52,7 +52,7 @@ export default {
       //调用请求
       getState().then(() => {
         setData()
-        console.log("层叠柱状图", data);
+        //console.log("层叠柱状图", data);
         // console.log("层叠柱状图",data2);
         let myChart = $echarts.init(document.getElementById("HorizontalChart1"));
         myChart.resize({width: 500, height: 350});

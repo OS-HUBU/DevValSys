@@ -100,12 +100,12 @@ export default defineComponent({
     function handleownertData(type) {
       // 获取该元素对应的用户数据
       let owner_login = props.data.value[type].ownerinfo_login;
-      console.log("传递到后端的数据",owner_login);
+      //.log("传递到后端的数据",owner_login);
       context.emit('handleownertData',owner_login)
     }
     function handleClick (row) { // 点击行的事件处理函数
       fixedRow.value = Object.values(row)
-      console.log("固定的数据",fixedRow.value);
+      //console.log("固定的数据",fixedRow.value);
     }
     function hoverRow(i) {
       // 设置被悬停的行的索引

@@ -42,7 +42,7 @@ const props = defineProps({
 const chart = ref(null)
 const {} = toRefs(props);
 watch(() => props.chartData, (val) => { setOptions(val)}, { deep: true })
-console.log("雷达图",props)
+//console.log("雷达图",props)
 onMounted(() => { initChart() })
 onBeforeUnmount(() =>
 {
