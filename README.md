@@ -2,7 +2,7 @@
 
 # 一、 团队介绍
 
-开发者价值评估可视化团队来自湖北大学计算机与信息工程学院，团队里的成员有：田明炎、周志峰、周珊珊、王耀庆。
+开发者价值评估可视化团队来自湖北大学计算机与信息工程学院OS-HUBU社区，团队里的成员有：田明炎、周志峰、周珊珊、王耀庆。
 
 # 二、 组员分工
 
@@ -68,7 +68,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 **（2）**一级指标展示：一级指标围绕着总分旋转，并且初次展示的分数、等级是价值总分最高的开发者的具体情况，等级是根据开发者所占排名的位置所判定的。如图一所示：
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/center.jpg)
+![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/center.jpg)
 
 **图 1 开发者价值评估一级指标展示**
 
@@ -86,13 +86,13 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 具体情况如图二、三所示：
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/table.jpg)
+![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/table.jpg)
 
 **图 2 2020年GitHubTop100开发者个人信息**
 
 
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/radar.jpg)
+![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/radar.jpg)
 
 **图 3 开发者五维能力分布**
 
@@ -108,13 +108,13 @@ GitHub是一个面向开源及私有软件项目的托管平台，作为开源�
 
 具体情况如下图所示：
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/be03de0031400c1bd5695597a228f434ffef9fc1/picture/country.jpg)
+![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/country.jpg)
 
 **图 四 2020年GitHub开发者规模top10国家**
 
 
 
-![img](https://atomgit.com/vuetest/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/company.jpg)
+![img](https://github.com/tmyisgod/2023-opensoda-final-w2/blob/0f4192387f785d2f63d391533bb01d76a8703c31/picture/company.jpg)
 
 **图 五 2020年GitHub开发者规模top10企业**
 
@@ -138,7 +138,7 @@ http://111.47.28.118:30014/
 
 视频查看地址：
 
-https://www.bilibili.com/video/BV1cH4y1f7Xm
+ https://www.bilibili.com/video/BV1cH4y1f7Xm
 
 # 九、致谢
 
